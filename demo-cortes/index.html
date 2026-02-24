@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Cortes Alvarez Verónica | Sabor casero en Azcapotzalco</title>
+  <meta name="description" content="Cafetería Cortes Alvarez Verónica en Col. Nueva Santa María, Azcapotzalco. Desayunos, café y comida casera. Guanábana 154-1.">
+  <meta property="og:title" content="Cafetería Cortes Alvarez Verónica">
+  <meta property="og:description" content="Desayunos, café y comida casera en Azcapotzalco, CDMX.">
+  <meta property="og:type" content="website">
+  <!-- OG:IMAGE: Reemplazar con foto real del negocio -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/base.css">
+  <style>
+    :root {
+      --color-primary: #7B5B3A;
+      --color-primary-dark: #52392A;
+      --color-accent: #D4956B;
+      --color-gold: #C49A6C;
+      --color-overlay: rgba(82, 57, 42, 0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <!-- LOGO: Reemplazar con logo del negocio -->
+      <a href="#" class="navbar-brand">Cafetería <span>Verónica</span></a>
+      <div class="hamburger" onclick="this.nextElementSibling.classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#menu">Menú</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1400&q=80');">
+    <!-- HERO IMAGE: Reemplazar con foto real de la fachada o interior del negocio -->
+    <div class="hero-content">
+      <p class="tagline">Con cariño desde</p>
+      <h1>Cafetería Cortes Alvarez Verónica</h1>
+      <p>Comida casera con el sazón que te recuerda a casa. En el corazón de Nueva Santa María.</p>
+      <a href="#menu" class="btn btn-primary">Nuestro Menú</a>
+      <a href="https://wa.me/5553551421" class="btn btn-outline">WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="nosotros" class="about">
+    <div class="container">
+      <h2 class="section-title">Conócenos</h2>
+      <p class="section-subtitle">Sabor que viene del corazón</p>
+      <div class="divider"></div>
+      <div class="about-grid">
+        <div class="about-image">
+          <!-- ABOUT IMAGE: Reemplazar con foto real del interior -->
+          <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=600&q=80" alt="Interior de la cafetería">
+        </div>
+        <div class="about-text">
+          <h3>El sazón de Verónica</h3>
+          <p>Somos una cafetería familiar ubicada en la calle Guanábana, en la colonia Nueva Santa María. Aquí encontrarás el auténtico sabor casero: desayunos completos, comidas reconfortantes y el mejor café para acompañar tu día.</p>
+          <p>Con atención cálida y precios accesibles, nos hemos ganado el cariño de nuestros vecinos y visitantes. ¡Ven a comprobarlo!</p>
+          <div class="about-features">
+            <div class="about-feature"><div class="icon">🍽️</div><span>Comida casera</span></div>
+            <div class="about-feature"><div class="icon">☕</div><span>Café de olla</span></div>
+            <div class="about-feature"><div class="icon">💰</div><span>Precios justos</span></div>
+            <div class="about-feature"><div class="icon">👩‍🍳</div><span>Recetas propias</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2 class="section-title">Nuestro Menú</h2>
+      <p class="section-subtitle">Hecho con amor, servido con cariño</p>
+      <div class="divider"></div>
+      <div class="menu-grid">
+        <div class="menu-card fade-in">
+          <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&q=80" alt="Café de olla"></div>
+          <div class="menu-card-body">
+            <h4>Café de Olla</h4>
+            <div class="price">Desde $25</div>
+            <p>El clásico café mexicano con canela y piloncillo, preparado como lo hacía la abuela.</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in">
+          <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&q=80" alt="Chilaquiles"></div>
+          <div class="menu-card-body">
+            <h4>Chilaquiles Caseros</h4>
+            <div class="price">Desde $65</div>
+            <p>Rojos o verdes, con pollo, crema y queso. El desayuno perfecto.</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in">
+          <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=80" alt="Comida corrida"></div>
+          <div class="menu-card-body">
+            <h4>Comida Corrida</h4>
+            <div class="price">Desde $80</div>
+            <p>Menú completo del día: sopa, arroz, plato fuerte, agua y postre.</p>
+          </div>
+        </div>
+        <div class="menu-card fade-in">
+          <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&q=80" alt="Tortas y más"></div>
+          <div class="menu-card-body">
+            <h4>Tortas y Molletes</h4>
+            <div class="price">Desde $40</div>
+            <p>Recién preparadas, con ingredientes frescos y abundantes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section id="ubicacion" class="location">
+    <div class="container">
+      <h2 class="section-title">Visítanos</h2>
+      <p class="section-subtitle">Estamos muy cerca de ti</p>
+      <div class="divider"></div>
+      <div class="location-grid">
+        <div class="map-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.5!2d-99.178!3d19.473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI4JzIyLjgiTiA5OcKwMTAnNDEuMyJX!5e0!3m2!1ses!2smx!4v1700000000000" allowfullscreen loading="lazy"></iframe>
+          <!-- MAP: Actualizar con el embed exacto de Google Maps del negocio -->
+        </div>
+        <div class="location-info">
+          <h3>¿Cómo llegar?</h3>
+          <div class="info-item">
+            <span class="icon">📍</span>
+            <div><strong>Dirección</strong><p>Guanábana 154-1, Col. Nueva Santa María,<br>Azcapotzalco, CDMX, CP 02800</p></div>
+          </div>
+          <div class="info-item">
+            <span class="icon">📞</span>
+            <div><strong>Teléfono</strong><a href="tel:+5553551421">(55) 5355 1421</a></div>
+          </div>
+          <div class="info-item">
+            <span class="icon">💬</span>
+            <div><strong>WhatsApp</strong><a href="https://wa.me/5553551421">Envíanos mensaje</a></div>
+          </div>
+          <div class="info-item">
+            <span class="icon">🕐</span>
+            <div>
+              <strong>Horario</strong>
+              <!-- HORARIO: Actualizar con horario real del negocio -->
+              <table class="schedule-table">
+                <tr><td>Lunes - Viernes</td><td>7:30 AM - 5:30 PM</td></tr>
+                <tr><td>Sábado</td><td>8:00 AM - 4:00 PM</td></tr>
+                <tr><td>Domingo</td><td>Cerrado</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section id="contacto" class="contact-cta">
+    <div class="container">
+      <h2>¡Haz tu pedido ahora!</h2>
+      <p>Escríbenos por WhatsApp y te tendremos tu orden lista para cuando llegues.</p>
+      <a href="https://wa.me/5553551421?text=Hola%20Verónica%2C%20quiero%20hacer%20un%20pedido" class="btn btn-primary">Pedir por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Cafetería Verónica</h4>
+          <p>Comida casera con sazón en la colonia Nueva Santa María, Azcapotzalco.</p>
+        </div>
+        <div>
+          <h4>Menú</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <p>📍 Guanábana 154-1, Col. Nueva Santa María</p>
+          <p>📞 <a href="tel:+5553551421">(55) 5355 1421</a></p>
+          <p>💬 <a href="https://wa.me/5553551421">WhatsApp</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Cafetería Cortes Alvarez Verónica. Sitio creado por <a href="#">Tu Agencia Web</a>.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/5553551421?text=Hola%2C%20quiero%20información" class="whatsapp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
